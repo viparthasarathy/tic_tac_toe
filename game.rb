@@ -207,6 +207,7 @@ module TicTacToe
   end
 end
 
+include TicTacToe
 playing = true
 while playing
   round = GameBoard.new
